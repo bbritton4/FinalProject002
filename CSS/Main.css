@@ -21,11 +21,18 @@ nav ul li {
 nav ul {
     list-style: none;
     padding: 0;
-    width: fit-content;
 }
+
 
 .hero {
     background: #ccc;
     height: 598px;
     width: auto;
+    align-items: center;
 }
+
+.hero h1, .hero a {
+    text-align: center;
+    
+}
+
