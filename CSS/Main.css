@@ -32,17 +32,15 @@ nav ul {
     background: url("../Images/Hero-Desktop.png");
     height: 750px;
     width: auto;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
-    font-style: FFF5F2;
+    color: FFF5F2;
 }
 
-.hero h1, .hero a {
-    text-align: center;
-    align-items: center;
-}
 
 .hero a {
     padding-top: 14px;
@@ -57,11 +55,31 @@ h1 {
 /* Our favorites section */
 
 .favorites {
-    display: grid;
-    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.previewCard {
+.favorites .previewCard {
     border: #000;
     border-radius: 8px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*tablet
+@media screen and (min-width: 820px) {
+    
+    .favorites {
+        grid-template-columns: repeat(2, 1fr);   
+    }
+
+} */
