@@ -1,11 +1,14 @@
+/* Navigation */
+
 nav {
     background: #B45335;
-    padding: .5rem;
+    padding: 0;
     color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 0, 1rem, 0, 1rem;
 }
 
 ul li {
@@ -23,16 +26,42 @@ nav ul {
     padding: 0;
 }
 
+/* Hero section */
 
 .hero {
-    background: #ccc;
-    height: 598px;
+    background: url("../Images/Hero-Desktop.png");
+    height: 750px;
     width: auto;
-    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-style: FFF5F2;
 }
 
 .hero h1, .hero a {
     text-align: center;
-    
+    align-items: center;
 }
 
+.hero a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #B49335;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+/* Our favorites section */
+
+.favorites {
+    display: grid;
+    gap: 1rem;
+}
+
+.previewCard {
+    border: #000;
+    border-radius: 8px;
+}
