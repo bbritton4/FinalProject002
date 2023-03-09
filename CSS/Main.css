@@ -1,3 +1,8 @@
+body {
+    background: #FDFDFD;
+}
+
+
 /* Navigation */
 
 nav {
@@ -43,6 +48,7 @@ h1 {
 
 
 .hero a {
+    /* I don't know why it wouldn't work endless I set size for each side */
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 40px;
@@ -55,13 +61,14 @@ h1 {
 /* Our favorites section */
 
 .favorites {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #FFF5F2;
+    display: grid;
+    gap: 1rem;
 }
 
-.favorites .previewCard {
-    border: #000;
+.previewCard {
+    border: 1px solid #000; /*remove*/
+    background: #FDFDFD;
     border-radius: 8px;
 }
 
