@@ -36,7 +36,8 @@ nav ul {
 .hero {
     background: url("../Images/Hero-Desktop.png");
     height: 750px;
-    width: auto;
+    width: 100%;
+    background-position: center center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,10 +58,6 @@ h1 {
     background-color: #B49335;
     border-radius: 8px;
     margin-top: 24px;
-}
-
-.hero div {
-    display: block;
 }
 
 /* Our favorites section */
@@ -92,6 +89,10 @@ h1 {
 .previewCard p {
     padding-left: .5rem;
     color: #B45335;
+}
+
+.previewCard img {
+    width: 100%;
 }
 
 
