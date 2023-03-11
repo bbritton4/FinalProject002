@@ -35,9 +35,8 @@ nav ul {
 
 .hero {
     background: url("../Images/Hero-Desktop.png");
-    height: 750px;
-    width: 100%;
     background-position: center center;
+    height: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,10 +88,6 @@ h1 {
 .previewCard p {
     padding-left: .5rem;
     color: #B45335;
-}
-
-.previewCard img {
-    width: 100%;
 }
 
 
