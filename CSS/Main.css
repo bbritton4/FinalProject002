@@ -92,6 +92,10 @@ h1 {
 .previewCard {
     background: #FDFDFD;
     border-radius: 8px;
+    min-width: 160px;
+    min-height: 124px;
+    max-width: 170px;
+    max-height: 134;
     align-items: center;
     justify-content: center;
 }
