@@ -3,7 +3,8 @@ body {
 }
 
 
-/* Navigation */
+/* Navigation
+--------------------------------------------------------- */
 
 nav {
     background: #B45335;
@@ -32,7 +33,8 @@ nav ul {
 }
 
 
-/* Hero section */
+/* Hero section
+--------------------------------------------------------- */
 
 .hero {
     background: url("../Images/Hero-Desktop.png");
@@ -69,7 +71,8 @@ h1 {
 }
 
 
-/* Our favorites section */
+/* Our favorites section 
+--------------------------------------------------------- */
 
 .favorites {
     background: #FFF5F2;
@@ -110,8 +113,17 @@ h1 {
 }
 
 
-/* Start section */
+/* Start section
+--------------------------------------------------------- */
 
+
+/* Awards section 
+--------------------------------------------------------- */
+.awards ul {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+}
 
 
 
@@ -131,6 +143,10 @@ h1 {
         grid-template-columns: repeat(2, 1fr);   
     }
 
+    .awards ul {
+        grid-template-columns: repeat(3, 1fr);   
+    }
+
 }
 
 
@@ -139,6 +155,10 @@ h1 {
 
     .gridhome {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    .awards ul {
+        grid-template-columns: repeat(3, 1fr);   
     }
 
     h1 {
