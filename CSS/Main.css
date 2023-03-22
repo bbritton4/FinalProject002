@@ -52,7 +52,7 @@ h1 {
 }
 
 
-.hero a {
+a {
     /* I don't know why it wouldn't work endless I set size for each side */
     padding-top: 14px;
     padding-bottom: 14px;
@@ -115,6 +115,20 @@ h1 {
 
 /* Start section
 --------------------------------------------------------- */
+.start {
+    display: flex;
+    padding: 3rem; 
+}
+
+.start img {
+    flex: 3;
+}
+
+.flexdiv {
+    padding: 3rem;
+    background: #FFF5F2;
+    text-align: left center;
+}
 
 
 /* Awards section 
@@ -123,8 +137,17 @@ h1 {
     list-style: none;
     display: grid;
     gap: 1rem;
+    padding: 3rem;
 }
 
+
+
+/* Footer
+--------------------------------------------------------- */
+footer {
+    background: #B45335;
+    height: 8rem;
+}
 
 
 
