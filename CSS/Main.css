@@ -115,12 +115,12 @@ a {
 
 /* Start section
 --------------------------------------------------------- */
-.start {
+.flex {
     display: flex;
     padding: 3rem; 
 }
 
-.start img {
+.flex img {
     flex: 3;
 }
 
