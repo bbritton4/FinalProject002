@@ -120,7 +120,7 @@ a {
 }
 
 .previewCard img {
-    border-radius: 8px;
+    border-radius: .5rem;
 }
 
 
@@ -136,8 +136,8 @@ a {
     width: 100%;
 }
 
-#logo {
-    width: auto;
+#radius {
+    border-radius: .5rem;
 }
 
 .flexdiv {
@@ -194,7 +194,8 @@ footer {
     }
     
     .gridhome {
-        grid-template-columns: repeat(2, 1fr);   
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 3rem;
     }
 
     .awards ul {
@@ -217,6 +218,7 @@ footer {
 
     .gridhome {
         grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
     }
 
     .awards ul {
