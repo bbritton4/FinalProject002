@@ -2,6 +2,12 @@ body {
     background: #FDFDFD;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
 
 /* Navigation
 --------------------------------------------------------- */
@@ -39,7 +45,8 @@ nav ul {
 .hero {
     background: url("../Images/Hero-Desktop.png");
     background-position: center center;
-    height: 750px;
+    background-size: cover;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,10 +104,14 @@ a {
 .previewCard {
     background: #FDFDFD;
     border-radius: 8px;
-    max-width: 320px;
     max-height: auto;
     align-items: center;
     justify-content: center;
+}
+
+.previewCard img {
+    width: 100%;
+    height: auto;
 }
 
 .previewCard p {
@@ -118,13 +129,21 @@ a {
 .flex {
     display: flex;
     padding: 3rem; 
+    flex-direction: column;
 }
 
 .flex img {
-    flex: 3;
+    width: 100%;
+}
+
+#logo {
+    width: auto;
 }
 
 .flexdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 3rem;
     background: #FFF5F2;
 }
@@ -137,6 +156,11 @@ a {
     display: grid;
     gap: 1rem;
     padding: 3rem;
+}
+
+.awards ul li {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -160,6 +184,14 @@ footer {
 
 /*tablet*/
 @media screen and (min-width: 820px) {
+
+    .flex {
+        flex-direction: row;
+    }
+
+    .flex img {
+        width: 50%;
+    }
     
     .gridhome {
         grid-template-columns: repeat(2, 1fr);   
@@ -174,6 +206,14 @@ footer {
 
 /*Desktop*/ 
 @media screen and (min-width: 1200px) {
+
+    .container {
+        padding: 0;
+    }
+
+    .flex img {
+        width: 75%;
+    }
 
     .gridhome {
         grid-template-columns: repeat(4, 1fr);
