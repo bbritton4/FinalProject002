@@ -15,12 +15,11 @@ body {
 nav {
     background: #B45335;
     padding: 0;
+    margin: 0;
     color: #fff;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: right;
-    margin: 0, 1rem, 0, 1rem;
 }
 
 ul li {
@@ -116,7 +115,7 @@ a {
 }
 
 .previewCard p {
-    padding-left: .5rem;
+    padding-left: 1rem;
     color: #B45335;
 }
 
@@ -216,7 +215,7 @@ footer {
     }
 
     .flex img {
-        width: 75;
+        width: 60%;
     }
 
     #flextext {
