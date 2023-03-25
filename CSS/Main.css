@@ -112,6 +112,7 @@ a {
 .previewCard img {
     width: 100%;
     height: auto;
+    border-radius: .5rem;
 }
 
 .previewCard p {
@@ -119,9 +120,7 @@ a {
     color: #B45335;
 }
 
-.previewCard img {
-    border-radius: .5rem;
-}
+
 
 
 /* Start section
@@ -217,7 +216,11 @@ footer {
     }
 
     .flex img {
-        width: 75%;
+        width: 75;
+    }
+
+    #flextext {
+        font-size: 1.5rem;
     }
 
     .gridhome {
@@ -238,9 +241,6 @@ footer {
         padding-right: 3rem;
     } 
 
-    #flextext {
-        font-size: 1.5rem;
-    }
 
 
 
