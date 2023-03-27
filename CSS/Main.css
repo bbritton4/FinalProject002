@@ -175,7 +175,40 @@ footer {
 }
 
 
+/* About Page
+---------------------------------------------------------
+--------------------------------------------------------- */
 
+.aboutflex {
+    display: flex;
+    padding: 4rem; 
+    flex-direction: column;
+    justify-self: center;
+}
+
+.aboutflex img {
+    width: 100%;
+}
+
+
+.aboutflex div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#logo {
+    width: 48px;
+    height: 48px;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.aboutflex {
+    color: #57483A;
+    font-size: 1rem;
+}
 
 
 
@@ -202,6 +235,18 @@ footer {
 
     .awards ul {
         grid-template-columns: repeat(3, 1fr);   
+    }
+
+    .aboutflex {
+        flex-direction: row;
+    }
+
+    .aboutflex img {
+        width: 50%;
+    }
+
+    .aboutflex div {
+        padding: 3rem;
     }
 
 }
