@@ -181,13 +181,14 @@ footer {
 
 .aboutflex {
     display: flex;
-    padding: 4rem; 
+    padding: 1rem; 
     flex-direction: column;
     justify-self: center;
 }
 
 .aboutflex img {
     width: 100%;
+    border-radius: .5rem;
 }
 
 
@@ -195,7 +196,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #logo {
@@ -239,6 +240,7 @@ footer {
 
     .aboutflex {
         flex-direction: row;
+        padding: 4rem; 
     }
 
     .aboutflex img {
